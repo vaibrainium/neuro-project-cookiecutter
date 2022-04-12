@@ -1,0 +1,10 @@
+{
+   "project_name": "project_name",
+ 	"repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+   "package_name": "src",
+	"Author": "Vaibhav Thakur",
+	"number_of_experiments": "3",
+	"description": "neuroscience project template"
+}
+
+
