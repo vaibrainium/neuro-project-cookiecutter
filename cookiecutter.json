@@ -2,7 +2,7 @@
    "project_name": "project_name",
    "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
    "package_name": "src",
-   "Author": "Vaibhav Thakur",
+   "author": "Vaibhav Thakur",
    "description": "Neuroscience Project Template",
    "python_interpreter": "3",
    "license": [
