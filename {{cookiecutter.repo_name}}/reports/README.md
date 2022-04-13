@@ -1,1 +1,1 @@
-Generated analysis as HTML, PDF, LaTeX, etc.
+Final reorts of the projects such as papers or posters
