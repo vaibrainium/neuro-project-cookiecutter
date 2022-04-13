@@ -1,0 +1,24 @@
+# local package
+-e .
+
+# external requirements
+click
+Sphinx
+coverage
+awscli
+pre_commit
+flake8
+black
+isort
+mypy
+nbstripout
+pyyaml
+pandas
+numpy
+scikit-learn
+python-dotenv>=0.5.1
+{% if cookiecutter.python_interpreter != 'python3' %}
+
+# backwards compatibility
+pathlib2
+{% endif %}

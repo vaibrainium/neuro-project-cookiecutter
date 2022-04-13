@@ -4,7 +4,7 @@
    "package_name": "src",
    "author": "Vaibhav Thakur",
    "description": "Neuroscience Project Template",
-   "python_interpreter": "3",
+   "python_interpreter": "^3.8",
    "license": [
        "MIT",
        "BSD-3",

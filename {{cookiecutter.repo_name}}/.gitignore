@@ -14,7 +14,6 @@ dist/
 downloads/
 eggs/
 .eggs/
-data/
 lib/
 lib64/
 parts/
@@ -42,7 +41,7 @@ htmlcov/
 .cache
 nosetests.xml
 coverage.xml
-*,cover
+*.cover
 
 # Translations
 *.mo
@@ -76,8 +75,15 @@ target/
 # Jupyter NB Checkpoints
 .ipynb_checkpoints/
 
+# exclude data from source control by default
+/data/
+
 # Mac OS-specific storage files
 .DS_Store
 
-# Ignore Pycharm files
-.idea
+# vim
+*.swp
+*.swo
+
+# Mypy cache
+.mypy_cache/
