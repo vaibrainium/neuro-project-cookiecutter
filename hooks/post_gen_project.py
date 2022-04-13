@@ -16,28 +16,7 @@ def post_hook():
     _logger.warning("POST Gen hook executed")
 
     try:
-
-        print(' *** Copy assets') 
-        fromDirectory = TMP_DIR + "app/static"
-        toDirectory   = "./app/static"
-
-        copy_tree(fromDirectory, toDirectory)
-        print(' ...done')
-
-        print(' *** Copy templates') 
-        fromDirectory = TMP_DIR + "app/templates"
-        toDirectory   = "./app/templates"
-
-        copy_tree(fromDirectory, toDirectory)
-        print(' ...done')
-
-        shutil.copy( TMP_DIR + "CHANGELOG.md", "CHANGELOG.md")
-        shutil.copy( TMP_DIR + "LICENSE.md"  , "LICENSE.md")
-
-        print('Remove `tmp` dir')
-        shutil.rmtree( TMP_DIR )
-        print(' ...done')
-
+    	None
 		# subprocess.call(['git', 'init'])
 		# subprocess.call(['git', 'add', '*'])
 		# subprocess.call(['git', 'commit', '-m', 'Initial commit'])
