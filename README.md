@@ -59,6 +59,13 @@ $ conda install cookiecutter
 +---documentation
 ¦       README.md
 ¦       
++---licenses
+¦       Apache-2
+¦       BSD-3
+¦       GPL-3
+¦       MIT
+¦       MPL-2.0
+¦       
 +---models
 ¦       README.md
 ¦       
