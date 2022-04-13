@@ -15,7 +15,7 @@ ALL_TEMP_FOLDERS = ["licenses"]
 
 def remove_temp_folders(temp_folders):
     for folder in temp_folders:
-        logger.info("Remove temporary folder: %s", folder)
+        _logger.info("Remove temporary folder: %s", folder)
         shutil.rmtree(folder)
 
 def post_hook():
