@@ -1,8 +1,0 @@
-raw: 
-  path: data/raw/
-
-processed:
-  path: data/processed/
-
-final:
-  path: data/final/
