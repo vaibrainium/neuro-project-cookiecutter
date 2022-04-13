@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 
 setup(
     name="{{ cookiecutter.package_name }}",
-    author='{{cookiecutter.auther}}',
+    author='{{cookiecutter.author}}',
     license='{{cookiecutter.license}}',
     packages=find_packages(),
     classifiers=[
