@@ -38,9 +38,9 @@ def post_hook():
         shutil.rmtree( TMP_DIR )
         print(' ...done')
 
-		subprocess.call(['git', 'init'])
-		subprocess.call(['git', 'add', '*'])
-		subprocess.call(['git', 'commit', '-m', 'Initial commit'])
+		# subprocess.call(['git', 'init'])
+		# subprocess.call(['git', 'add', '*'])
+		# subprocess.call(['git', 'commit', '-m', 'Initial commit'])
 
     except OSError as e:
         #_logger.warning("While attempting to remove file(s) an error occurred")

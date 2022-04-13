@@ -1,11 +1,16 @@
 {
    "project_name": "project_name",
- 	 "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+   "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
    "package_name": "src",
-	 "Author": "Vaibhav Thakur",
-	 "description": "Neuroscience Project Template",
-   "open_source_license": ["MIT", "BSD-3-Clause", "No license file"],
-   "python_interpreter": "3"
+   "Author": "Vaibhav Thakur",
+   "description": "Neuroscience Project Template",
+   "python_interpreter": "3",
+   "license": [
+       "MIT",
+       "BSD-3",
+       "GNU GPL v3.0",
+       "Apache Software License 2.0",
+       "Mozilla Public License 2.0"
 }
 
 
