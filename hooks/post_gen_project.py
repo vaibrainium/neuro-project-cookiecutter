@@ -38,7 +38,7 @@ def post_hook():
         shutil.rmtree( TMP_DIR )
         print(' ...done')
 
-		subprocess.call(['git', 'init'])	
+		subprocess.call(['git', 'init'])
 		subprocess.call(['git', 'add', '*'])
 		subprocess.call(['git', 'commit', '-m', 'Initial commit'])
 
