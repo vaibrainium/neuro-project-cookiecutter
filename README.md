@@ -1,4 +1,4 @@
-Cookiecutter template for Neuroscience projects
+# Cookiecutter template for Neuroscience projects
 
 
 This project template was modified from [cookiecutter-data-science](http://drivendata.github.io/cookiecutter-data-science/), which is more full-featured and domain-agnostic.
