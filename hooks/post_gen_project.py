@@ -18,14 +18,13 @@ def remove_temp_folders(temp_folders):
         _logger.info("Remove temporary folder: %s", folder)
         shutil.rmtree(folder)
 
+
 def post_hook():
     """Flag the POST gen HOOK execution"""
     _logger.warning("POST Gen hook executed")
 
     try:
-    	for temp_folder in ALL_TEMP_FOLDERS:
-        	logger.info("Remove temporary folder: %s", temp_folder)
-        	shutil.rmtree(temp_folder)
+    	None
 
 		# subprocess.call(['git', 'init'])
 		# subprocess.call(['git', 'add', '*'])
