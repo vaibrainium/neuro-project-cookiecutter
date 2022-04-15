@@ -9,22 +9,25 @@ This project template was modified from [cookiecutter-data-science](http://drive
  - Python
  - [Cookiecutter Python package](http://cookiecutter.readthedocs.org/en/latest/installation.html) >= 1.4.0: This can be installed with pip by or conda depending on how you manage your Python packages:
 
+	``` bash
+	$ pip install cookiecutter
+	```
 
+	or
 
+	``` bash
+	$ conda config --add channels conda-forge
+	$ conda install cookiecutter
+	```
 
-``` bash
-$ pip install cookiecutter
-```
+ - Make
 
-or
-
-``` bash
-$ conda config --add channels conda-forge
-$ conda install cookiecutter
-```
-
-
-
+	Run powershell as administrator.
+   Install chocolatey and then install make
+	```bash
+	$ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+	$ choco install make
+	```
 
 ### To start a new project, run:
 ------------
