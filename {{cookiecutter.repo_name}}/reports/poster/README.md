@@ -1,6 +1,7 @@
 # Poster for conference presentation
 
 Use image as template. Ideas from [Mike Morrison's video](https://www.youtube.com/watch?v=SYk29tnxASs&t=2s).
+![](<betterposter.png>)
 
 Notes: 
 1) Title of the poster should be your main result of the poster.
