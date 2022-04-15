@@ -85,9 +85,6 @@ This project template was modified from [cookiecutter-data-science](http://drive
 ¦
 +---scripts
 ¦   ¦   0.0-usr-demo-script.ipynb
-¦   ¦   
-¦   +---.ipynb_checkpoints
-¦           0.0-usr-demo-script-checkpoint.ipynb
 ¦           
 +---tests
 ¦       README.md
