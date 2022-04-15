@@ -35,4 +35,4 @@ Publicaly submitted mods templates:
 
 
 
-More informaion available on: [](https://osf.io/6ua4k/)
+[More informaion and material](https://osf.io/6ua4k/)

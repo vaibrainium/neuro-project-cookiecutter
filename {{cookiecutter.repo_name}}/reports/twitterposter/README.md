@@ -9,4 +9,4 @@ Use this as template. Ideas from [Mike Morrison's video](https://www.youtube.com
 4) Make GIF file
 
 
-More informaion available on: [](https://osf.io/6ua4k/)
+[More informaion and material](https://osf.io/6ua4k/)
