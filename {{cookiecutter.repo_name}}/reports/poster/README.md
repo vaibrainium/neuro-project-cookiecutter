@@ -26,7 +26,7 @@ Notes:
 	You can make QR code from: [single page](https://www.qrcode-monkey.com/) or [multi-page](https://linktr.ee/)
 
 
-Publicaly submitted mods templates:
+Publicly submitted mods templates:
 * [The "L" layout](https://osf.io/zkmvw/)
 * [Template 2](https://derekcrowe.net/butterposter)
 * LATEX: [Portrait](https://github.com/LanaSina/better_poster_latex)
