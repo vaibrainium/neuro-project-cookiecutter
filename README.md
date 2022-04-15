@@ -31,9 +31,9 @@ This project template was modified from [cookiecutter-data-science](http://drive
 
 ## To start a new project:
 ------------
-
+	```bash
    $ cookiecutter https://github.com/vaibrainium/neuro-project-cookiecutter
-
+	```
 
 
 
@@ -57,6 +57,7 @@ This project template was modified from [cookiecutter-data-science](http://drive
 ¦   ¦   README.md
 ¦   ¦   
 ¦   +---final
+¦   ¦
 ¦   +---processed
 ¦   ¦   ¦   metadata.yml
 ¦   ¦   ¦   
