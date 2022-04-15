@@ -29,11 +29,11 @@ This project template was modified from [cookiecutter-data-science](http://drive
 	$ choco install make
 	```
 
-## To start a new project, run:
+## To start a new project:
 ------------
-
-    cookiecutter https://github.com/vaibrainium/neuro-project-cookiecutter
-
+	```bash
+  	$ cookiecutter https://github.com/vaibrainium/neuro-project-cookiecutter
+	```
 
 
 
