@@ -67,6 +67,7 @@ This project template was modified from [cookiecutter-data-science](http://drive
 ¦   ¦               metadata.yml
 ¦   ¦               
 ¦   +---raw
+¦
 +---documentation
 ¦       README.md
 ¦       
@@ -81,6 +82,7 @@ This project template was modified from [cookiecutter-data-science](http://drive
 ¦   ¦       README.md
 ¦   ¦       
 ¦   +---references
+¦
 +---scripts
 ¦   ¦   0.0-usr-demo-script.ipynb
 ¦   ¦   
@@ -90,13 +92,6 @@ This project template was modified from [cookiecutter-data-science](http://drive
 +---tests
 ¦       README.md
 ¦       
-+---writeups
-¦   ¦   README.md
-¦   ¦   
-¦   +---figures
-¦   ¦       README.md
-¦   ¦       
-¦   +---references
 +---src
     ¦   __init__.py
     ¦   
