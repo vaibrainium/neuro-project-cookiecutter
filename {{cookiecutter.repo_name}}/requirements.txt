@@ -19,6 +19,9 @@ scipy
 scikit-learn
 numba
 statsmodels
+matplotlib
+seaborn
+bokeh
 python-dotenv>=0.5.1
 {% if cookiecutter.python_interpreter != 'python3' %}
 
