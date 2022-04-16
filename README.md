@@ -55,18 +55,20 @@ This project template was modified from [cookiecutter-data-science](http://drive
 +---data
 ¦   ¦   README.md
 ¦   ¦   
-¦   +---final
-¦   ¦
-¦   +---processed
-¦   ¦   ¦   metadata.yml
-¦   ¦   ¦   
-¦   ¦   +---subject_1
-¦   ¦       ¦   metadata.yml
-¦   ¦       ¦   
-¦   ¦       +---session_1
-¦   ¦               metadata.yml
-¦   ¦               
-¦   +---raw
+¦   +---experiment_name
+	¦
+¦   	+---final
+¦   	¦
+¦   	+---processed
+¦   	¦   ¦   metadata.yml
+¦   	¦   ¦   
+¦   	¦   +---subject_1
+¦   	¦       ¦   metadata.yml
+¦   	¦       ¦   
+¦   	¦       +---session_1
+¦   	¦               metadata.yml
+¦   	¦               
+¦   	+---raw
 ¦
 +---documentation
 ¦       README.md
@@ -83,9 +85,14 @@ This project template was modified from [cookiecutter-data-science](http://drive
 ¦   ¦       
 ¦   +---references
 ¦
-+---scripts
++---notebooks
 ¦   ¦   0.0-usr-demo-script.ipynb
-¦           
+¦
++---scripts
+¦   ¦	README.md
+¦   ¦
+¦   +---experiment_name 
+¦
 +---tests
 ¦       README.md
 ¦       
