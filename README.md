@@ -20,7 +20,7 @@ This project template was modified from [cookiecutter-data-science](http://drive
 	$ conda install cookiecutter
 	```
 
- - Make
+ - Make (Optional)
 
 	Run powershell as administrator.
    Install chocolatey and then install make
